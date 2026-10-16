@@ -2,6 +2,7 @@
 /*============================================================================================================
 Stored procedure first Truncate silver layer table and then load data form Bronze to Silver layer
 Usage: EXCUTE bronze.load_bronze
+This SP does not accept any  parameter  or returns any value . 
 ===============================================================================================================*/
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
